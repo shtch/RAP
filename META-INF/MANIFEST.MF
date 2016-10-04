@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Platform
+Bundle-SymbolicName: platform
+Bundle-Version: 0.0.0.0
+Bundle-Activator: platform.Activator
+Bundle-Vendor: ask
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.rap.rwt;bundle-version="[3.1.0,4.0.0)"
+Import-Package: org.osgi.framework;version="[1.6.0,2.0.0)"
+Service-Component: OSGI-INF/contribution.xml
+Export-Package: platform
+WebLogic-Application-Version: 0.0.0.0
